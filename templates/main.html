@@ -106,6 +106,10 @@
             color: #dcdcdc;
         }
 
+        .product-name, .product-brand {
+        color: #000000;
+          }
+
         @media (max-width: 768px) {
             .navbar {
                 padding: 10px;
@@ -175,8 +179,8 @@
           <div class="card">
               <img src="{{ product['ImageURL'] }}" class="card-img-top" alt="{{ product['Name'] }}" style="height: 200px;">
             <div class="card-body">
-              <h5 class="card-title">{{ truncate(product['Name'],12) }}</h5>
-              <p class="card-text">Brand: {{ product['Brand'] }}</p>
+              <h5 class="card-title product-name">{{ truncate(product['Name'],12) }}</h5>
+              <p class="card-text product-brand">Brand: {{ product['Brand'] }}</p>
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productModal{{ index }}">Buy Now</button>
             </div>
           </div>
