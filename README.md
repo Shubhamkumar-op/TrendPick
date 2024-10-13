@@ -59,9 +59,17 @@ flask shell
 >>> db.create_all()
 >>> exit()
 ```
+<h2>Dataset Used</h2>
+The product data for this project is sourced from the Walmart Product Data available on Kaggle. The dataset includes a variety of product details such as:
 
+<h2>Product names</h2>
+Tags (used for similarity calculations)
+<li>Review counts</li>
+<li>Ratings</li>
+<li>Brand</li>
+<li>Image URLs</li>
+  
 <h1>Prepare CSV Files</h1>
-
 Ensure the following CSV files are placed in the models/ directory:
 
 <li>trending_products.csv: Contains trending products data.</li>
