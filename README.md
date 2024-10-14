@@ -1,5 +1,5 @@
 # TrendPick - Product Recommendation System
-PickSmart is a Flask-based web application designed to provide personalized product recommendations based on product content. Using machine learning techniques like TF-IDF vectorization and cosine similarity, the application suggests similar products based on user input. It also features user authentication and displays trending products with dynamic images and prices.
+TrendPick is a Flask-based web application designed to provide personalized product recommendations based on product content. Using machine learning techniques like TF-IDF vectorization and cosine similarity, the application suggests similar products based on user input. It also features user authentication and displays trending products with dynamic images and prices.
 
 <h1>Features</h1>
 User Authentication: Users can sign up, sign in, and sign out.
